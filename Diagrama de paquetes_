@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama de Paquetes" id="NsLWrM-oIlJHTvwAr_iJ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zgVrQgvOlvG5tZxPtYfx-1" parent="1" style="shape=folder;tabWidth=70;tabHeight=20;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="480" width="900" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9oGvi0jNyJPiPU4xlp9A-56" parent="1" style="shape=folder;tabWidth=70;tabHeight=20;whiteSpace=wrap;html=1;" value="&lt;&lt;package&gt;&gt;&#xa;Interfaz&#xa;&#xa;- Catálogo de Servicios&#xa;- Agenda&#xa;- Panel Cliente&#xa;- Dashboard Admin" vertex="1">
+          <mxGeometry height="170" width="220" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9oGvi0jNyJPiPU4xlp9A-57" parent="1" style="shape=folder;tabWidth=70;tabHeight=20;whiteSpace=wrap;html=1;" value="&lt;&lt;package&gt;&gt;&#xa;Back-end&#xa;&#xa;- Servicios&#xa;- Usuarios&#xa;- Autenticación&#xa;- Inventario&#xa;- Pagos" vertex="1">
+          <mxGeometry height="190" width="230" x="340" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9oGvi0jNyJPiPU4xlp9A-58" parent="1" style="shape=folder;tabWidth=70;tabHeight=20;whiteSpace=wrap;html=1;" value="&lt;&lt;package&gt;&gt;&#xa;Base de Datos&#xa;&#xa;- Usuarios&#xa;- Servicios&#xa;- Inventario&#xa;- Pagos" vertex="1">
+          <mxGeometry height="180" width="220" x="650" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9oGvi0jNyJPiPU4xlp9A-59" parent="1" style="shape=folder;tabWidth=70;tabHeight=20;whiteSpace=wrap;html=1;" value="&lt;&lt;package&gt;&gt;&#xa;Servicios Externos&#xa;&#xa;- API de Pagos&#xa;- API de Notificaciones" vertex="1">
+          <mxGeometry height="140" width="220" x="650" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9oGvi0jNyJPiPU4xlp9A-60" edge="1" parent="1" source="9oGvi0jNyJPiPU4xlp9A-56" style="endArrow=open;dashed=1;" target="9oGvi0jNyJPiPU4xlp9A-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9oGvi0jNyJPiPU4xlp9A-61" edge="1" parent="1" source="9oGvi0jNyJPiPU4xlp9A-57" style="endArrow=open;dashed=1;" target="9oGvi0jNyJPiPU4xlp9A-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9oGvi0jNyJPiPU4xlp9A-62" edge="1" parent="1" source="9oGvi0jNyJPiPU4xlp9A-57" style="endArrow=open;dashed=1;" target="9oGvi0jNyJPiPU4xlp9A-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zgVrQgvOlvG5tZxPtYfx-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UBAN TATTOO" vertex="1">
+          <mxGeometry height="50" width="290" x="756" y="6" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
